@@ -330,6 +330,15 @@ $messages['jv'] = array(
 	'mediafunctions-not-exist' => '"$1" ora ana',
 );
 
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'mediafunctions-desc' => 'პერსერის ფუნქცია მედია-ფაილებზე ინფორმაციის მისარებად',
+	'mediafunctions-invalid-title' => '„$1“ არ წარმოადგენს სწორ სათაურს',
+	'mediafunctions-not-exist' => '„$1“ არ არსებობს',
+);
+
 /** Khmer (ភាសាខ្មែរ)
  * @author Chhorran
  * @author Thearith
