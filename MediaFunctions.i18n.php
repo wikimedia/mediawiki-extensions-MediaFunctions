@@ -437,6 +437,7 @@ $messages['nl'] = array(
 
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Harald Khan
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'mediafunctions-desc' => 'Parserfunksjonar for å henta informasjon om mediefiler.',
