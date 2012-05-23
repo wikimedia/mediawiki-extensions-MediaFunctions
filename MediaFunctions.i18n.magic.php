@@ -53,6 +53,17 @@ $magicWords['ce'] = array(
 	'mediadimensions' => array( 0, 'медиабарамаш', 'размерымедиа', 'mediadimensions' ),
 );
 
+/** German (Deutsch) */
+$magicWords['de'] = array(
+	'mediamime' => array( 0, 'medienmime' ),
+	'mediasize' => array( 0, 'mediengröße' ),
+	'mediaheight' => array( 0, 'medienhöhe' ),
+	'mediawidth' => array( 0, 'medienbreite' ),
+	'mediadimensions' => array( 0, 'mediendimensionen' ),
+	'mediaexif' => array( 0, 'medienexif' ),
+	'mediapages' => array( 0, 'medienseiten' ),
+);
+
 /** French (Français) */
 $magicWords['fr'] = array(
 	'mediasize' => array( 0, 'taillemédia' ),
