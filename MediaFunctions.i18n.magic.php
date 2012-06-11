@@ -64,7 +64,7 @@ $magicWords['de'] = array(
 	'mediapages' => array( 0, 'medienseiten' ),
 );
 
-/** French (Français) */
+/** French (français) */
 $magicWords['fr'] = array(
 	'mediasize' => array( 0, 'taillemédia' ),
 	'mediaheight' => array( 0, 'hauteurmédia' ),
@@ -83,7 +83,18 @@ $magicWords['ja'] = array(
 	'mediapages' => array( 0, 'メディアページ' ),
 );
 
-/** Macedonian (Македонски) */
+/** Korean (한국어) */
+$magicWords['ko'] = array(
+	'mediamime' => array( 0, '미디어mime' ),
+	'mediasize' => array( 0, '미디어크기' ),
+	'mediaheight' => array( 0, '미디어높이' ),
+	'mediawidth' => array( 0, '미디어너비' ),
+	'mediadimensions' => array( 0, '미디어넓이' ),
+	'mediaexif' => array( 0, '미디어exif' ),
+	'mediapages' => array( 0, '미디어문서' ),
+);
+
+/** Macedonian (македонски) */
 $magicWords['mk'] = array(
 	'mediamime' => array( 0, 'снимкаmime' ),
 	'mediasize' => array( 0, 'снимкаголемина' ),
@@ -129,7 +140,7 @@ $magicWords['nl'] = array(
 	'mediapages' => array( 0, 'mediapaginas' ),
 );
 
-/** Russian (Русский) */
+/** Russian (русский) */
 $magicWords['ru'] = array(
 	'mediamime' => array( 0, 'mimeмедиа' ),
 	'mediasize' => array( 0, 'размермедиа' ),
@@ -140,7 +151,7 @@ $magicWords['ru'] = array(
 	'mediapages' => array( 0, 'медиастраницы' ),
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬) */
+/** Serbian (Latin script) (‪srpski (latinica)‬) */
 $magicWords['sr-el'] = array(
 	'mediamime' => array( 0, 'mime_datoteke' ),
 	'mediasize' => array( 0, 'veličina_datoteke' ),
@@ -149,4 +160,14 @@ $magicWords['sr-el'] = array(
 	'mediadimensions' => array( 0, 'dimenzije_datoteke' ),
 	'mediaexif' => array( 0, 'exif_datoteke' ),
 	'mediapages' => array( 0, 'stranice_sa_datotekama' ),
+);
+
+/** Ukrainian (українська) */
+$magicWords['uk'] = array(
+	'mediasize' => array( 0, 'розмір' ),
+	'mediaheight' => array( 0, 'висота' ),
+	'mediawidth' => array( 0, 'ширина' ),
+	'mediadimensions' => array( 0, 'розміримедіа' ),
+	'mediaexif' => array( 0, 'exifмедіа' ),
+	'mediapages' => array( 0, 'медіасторінки' ),
 );
