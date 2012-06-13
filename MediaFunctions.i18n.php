@@ -646,6 +646,13 @@ $messages['vo'] = array(
 	'mediafunctions-not-exist' => '"$1" no dabinon',
 );
 
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'mediafunctions-not-exist' => '"$1" עקזיסטירט נישט',
+);
+
 /** Cantonese (粵語) */
 $messages['yue'] = array(
 	'mediafunctions-invalid-title' => '"$1" 唔係一個有效嘅標題',
