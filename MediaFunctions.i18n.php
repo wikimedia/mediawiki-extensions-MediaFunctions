@@ -56,7 +56,7 @@ $messages['arz'] = array(
 	'mediafunctions-not-exist' => '"$1" غير موجود',
 );
 
-/** Asturian (Asturianu)
+/** Asturian (asturianu)
  * @author Xuacu
  */
 $messages['ast'] = array(
@@ -76,7 +76,7 @@ $messages['be-tarask'] = array(
 	'mediafunctions-not-exist' => '«$1» не існуе',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author Spiritia
  */
 $messages['bg'] = array(
@@ -92,7 +92,7 @@ $messages['bn'] = array(
 	'mediafunctions-not-exist' => '"$1" পাতাটির অস্তিত্ব নেই',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  */
 $messages['br'] = array(
@@ -101,7 +101,7 @@ $messages['br'] = array(
 	'mediafunctions-not-exist' => 'N\'eus ket eus "$1"',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -110,7 +110,7 @@ $messages['bs'] = array(
 	'mediafunctions-not-exist' => '"$1" ne postoji',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author SMP
  */
 $messages['ca'] = array(
@@ -119,7 +119,7 @@ $messages['ca'] = array(
 	'mediafunctions-not-exist' => '«$1» no existeix',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Danny B.
  */
 $messages['cs'] = array(
@@ -165,7 +165,7 @@ $messages['eo'] = array(
 	'mediafunctions-not-exist' => '"$1" ne ekzistas',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Sanbec
  */
 $messages['es'] = array(
@@ -174,7 +174,7 @@ $messages['es'] = array(
 	'mediafunctions-not-exist' => '«$1» no existe',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Avjoska
  */
 $messages['et'] = array(
@@ -182,7 +182,7 @@ $messages['et'] = array(
 	'mediafunctions-not-exist' => 'Faili "$1" ei ole olemas',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  * @author Theklan
  */
@@ -192,7 +192,7 @@ $messages['eu'] = array(
 	'mediafunctions-not-exist' => '"$1" ez da existitzen',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Nike
  * @author Vililikku
  */
@@ -202,7 +202,7 @@ $messages['fi'] = array(
 	'mediafunctions-not-exist' => 'Tiedostoa ”$1” ei ole olemassa.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Crochet.david
  * @author Grondin
  * @author Sherbrooke
@@ -213,7 +213,7 @@ $messages['fr'] = array(
 	'mediafunctions-not-exist' => '« $1 » n’existe pas',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -258,7 +258,7 @@ $messages['hi'] = array(
 	'mediafunctions-not-exist' => '"$1" अस्तित्वमें नहीं',
 );
 
-/** Croatian (Hrvatski)
+/** Croatian (hrvatski)
  * @author Dnik
  */
 $messages['hr'] = array(
@@ -275,7 +275,7 @@ $messages['hsb'] = array(
 	'mediafunctions-not-exist' => '"$1" njeeksistuje',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Glanthor Reviol
  */
@@ -285,7 +285,7 @@ $messages['hu'] = array(
 	'mediafunctions-not-exist' => '„$1” nem létezik',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -303,7 +303,7 @@ $messages['id'] = array(
 	'mediafunctions-not-exist' => '"$1" tak ditemukan',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Darth Kule
  */
 $messages['it'] = array(
@@ -367,7 +367,7 @@ $messages['lb'] = array(
 	'mediafunctions-not-exist' => '"$1" gëtt et net',
 );
 
-/** Latvian (Latviešu)
+/** Latvian (latviešu)
  * @author GreenZeb
  */
 $messages['lv'] = array(
@@ -376,7 +376,7 @@ $messages['lv'] = array(
 	'mediafunctions-not-exist' => '"$1" nepastāv',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -435,7 +435,7 @@ $messages['nl'] = array(
 	'mediafunctions-not-exist' => '"$1" bestaat niet',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -445,7 +445,7 @@ $messages['nn'] = array(
 	'mediafunctions-not-exist' => '«$1» finst ikkje',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -454,7 +454,7 @@ $messages['oc'] = array(
 	'mediafunctions-not-exist' => '« $1 » existís pas.',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Sp5uhe
  */
 $messages['pl'] = array(
@@ -481,7 +481,7 @@ $messages['ps'] = array(
 	'mediafunctions-not-exist' => '"$1" نشته',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Malafaya
  * @author Waldir
@@ -492,7 +492,7 @@ $messages['pt'] = array(
 	'mediafunctions-not-exist' => '"$1" não existe',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  */
 $messages['pt-br'] = array(
@@ -501,7 +501,7 @@ $messages['pt-br'] = array(
 	'mediafunctions-not-exist' => '"$1" não existe',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author KlaudiuMihaila
  */
 $messages['ro'] = array(
@@ -509,7 +509,7 @@ $messages['ro'] = array(
 	'mediafunctions-not-exist' => '"$1" nu există',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -518,7 +518,7 @@ $messages['roa-tara'] = array(
 	'mediafunctions-not-exist' => '"$1" non g\'esiste',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Ferrer
  * @author VasilievVV
  */
@@ -528,7 +528,7 @@ $messages['ru'] = array(
 	'mediafunctions-not-exist' => '«$1» не существует',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  */
 $messages['sk'] = array(
@@ -537,7 +537,7 @@ $messages['sk'] = array(
 	'mediafunctions-not-exist' => '„$1“ neexistuje',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -547,7 +547,7 @@ $messages['sr-ec'] = array(
 	'mediafunctions-not-exist' => 'Датотека „$1“ не постоји',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -564,7 +564,7 @@ $messages['stq'] = array(
 	'mediafunctions-not-exist' => '„$1“ bestoant nit',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Boivie
  * @author M.M.S.
  */
@@ -610,7 +610,7 @@ $messages['tr'] = array(
 	'mediafunctions-not-exist' => '"$1" mevcut değil',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Prima klasy4na
  */
 $messages['uk'] = array(
@@ -619,7 +619,7 @@ $messages['uk'] = array(
 	'mediafunctions-not-exist' => '"$1" не існує',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -659,7 +659,7 @@ $messages['yue'] = array(
 	'mediafunctions-not-exist' => '"$1" 唔存在',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Chenxiaoqino
  */
 $messages['zh-hans'] = array(
@@ -668,7 +668,7 @@ $messages['zh-hans'] = array(
 	'mediafunctions-not-exist' => '"$1" 不存在',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Mark85296341
  */
 $messages['zh-hant'] = array(
