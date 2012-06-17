@@ -315,11 +315,12 @@ $messages['it'] = array(
 /** Japanese (日本語)
  * @author Fryed-peach
  * @author Mizusumashi
+ * @author Shirayuki
  */
 $messages['ja'] = array(
-	'mediafunctions-desc' => 'メディア・ファイルに関する情報を取得するパーサー関数',
-	'mediafunctions-invalid-title' => '"$1"は有効なタイトルではありません',
-	'mediafunctions-not-exist' => '"$1"は存在しません',
+	'mediafunctions-desc' => 'メディアファイルに関する情報を取得するパーサー関数',
+	'mediafunctions-invalid-title' => '「$1」は有効なページ名ではありません',
+	'mediafunctions-not-exist' => '「$1」は存在しません',
 );
 
 /** Javanese (Basa Jawa)
