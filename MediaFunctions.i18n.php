@@ -65,7 +65,7 @@ $messages['ast'] = array(
 	'mediafunctions-not-exist' => '"$1" nun esiste',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -138,7 +138,7 @@ $messages['de'] = array(
 	'mediafunctions-not-exist' => '„$1“ ist nicht vorhanden',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -221,7 +221,7 @@ $messages['frp'] = array(
 	'mediafunctions-not-exist' => '« $1 » ègziste pas',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  * @author Xosé
  */
@@ -266,7 +266,7 @@ $messages['hr'] = array(
 	'mediafunctions-not-exist' => '"$1" ne postoji',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
