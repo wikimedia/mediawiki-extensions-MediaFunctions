@@ -109,7 +109,7 @@ $magicWords['mk'] = array(
 	'mediaheight' => array( 0, 'снимкависина' ),
 	'mediawidth' => array( 0, 'снимкаширина' ),
 	'mediadimensions' => array( 0, 'снимкадимензии' ),
-	'mediaexif' => array( 0, 'снимкаexif' ),
+	'mediaexif' => array( 0, 'снимкаексили' ),
 	'mediapages' => array( 0, 'снимкастраници' ),
 );
 
