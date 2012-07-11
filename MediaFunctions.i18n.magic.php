@@ -44,7 +44,7 @@ $magicWords['arz'] = array(
 	'mediapages' => array( 0, 'صفحات_الميديا', 'mediapages' ),
 );
 
-/** Chechen (Нохчийн) */
+/** Chechen (нохчийн) */
 $magicWords['ce'] = array(
 	'mediamime' => array( 0, 'mimeмедиа', 'mediamime' ),
 	'mediasize' => array( 0, 'медиабарам', 'размермедиа', 'mediasize' ),

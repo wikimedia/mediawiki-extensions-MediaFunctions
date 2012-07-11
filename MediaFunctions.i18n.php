@@ -410,9 +410,7 @@ $messages['nah'] = array(
 	'mediafunctions-not-exist' => '"$1" ahmo ia',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- */
+/** Norwegian Bokmål (‪norsk (bokmål)‬) */
 $messages['nb'] = array(
 	'mediafunctions-desc' => 'Parserfunksjoner for å hente informasjon om mediefiler',
 	'mediafunctions-invalid-title' => '«$1» er en ugyldig tittel',
