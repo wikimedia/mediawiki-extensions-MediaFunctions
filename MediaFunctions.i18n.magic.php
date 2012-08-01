@@ -66,10 +66,12 @@ $magicWords['de'] = array(
 
 /** Zazaki (Zazaki) */
 $magicWords['diq'] = array(
+	'mediamime' => array( 0, 'mimênedya' ),
 	'mediasize' => array( 0, 'ebatêmedya' ),
 	'mediaheight' => array( 0, 'berziyamedya' ),
 	'mediawidth' => array( 0, 'herayiyamedya' ),
 	'mediadimensions' => array( 0, 'gırdiyamedya' ),
+	'mediapages' => array( 0, 'pelaymedya' ),
 );
 
 /** French (français) */
