@@ -192,6 +192,13 @@ $messages['eu'] = array(
 	'mediafunctions-not-exist' => '"$1" ez da existitzen',
 );
 
+/** Persian (فارسی)
+ * @author Mjbmr
+ */
+$messages['fa'] = array(
+	'mediafunctions-invalid-title' => '«$1» یک عنوان معتبر نیست',
+);
+
 /** Finnish (suomi)
  * @author Nike
  * @author Vililikku
