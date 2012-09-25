@@ -161,7 +161,7 @@ $magicWords['ru'] = array(
 	'mediapages' => array( 0, 'медиастраницы' ),
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬) */
+/** Serbian (Latin script) (srpski (latinica)‎) */
 $magicWords['sr-el'] = array(
 	'mediamime' => array( 0, 'mime_datoteke' ),
 	'mediasize' => array( 0, 'veličina_datoteke' ),
