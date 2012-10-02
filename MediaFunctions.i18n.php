@@ -65,7 +65,7 @@ $messages['ast'] = array(
 	'mediafunctions-not-exist' => '"$1" nun esiste',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  * @author Wizardist
@@ -417,7 +417,7 @@ $messages['nah'] = array(
 	'mediafunctions-not-exist' => '"$1" ahmo ia',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬) */
+/** Norwegian Bokmål (norsk (bokmål)‎) */
 $messages['nb'] = array(
 	'mediafunctions-desc' => 'Parserfunksjoner for å hente informasjon om mediefiler',
 	'mediafunctions-invalid-title' => '«$1» er en ugyldig tittel',
@@ -441,7 +441,7 @@ $messages['nl'] = array(
 	'mediafunctions-not-exist' => '"$1" bestaat niet',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Harald Khan
  * @author Njardarlogar
  */
@@ -543,7 +543,7 @@ $messages['sk'] = array(
 	'mediafunctions-not-exist' => '„$1“ neexistuje',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  * @author Михајло Анђелковић
  */
@@ -553,7 +553,7 @@ $messages['sr-ec'] = array(
 	'mediafunctions-not-exist' => 'Датотека „$1“ не постоји',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -665,7 +665,7 @@ $messages['yue'] = array(
 	'mediafunctions-not-exist' => '"$1" 唔存在',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Chenxiaoqino
  */
 $messages['zh-hans'] = array(
@@ -674,7 +674,7 @@ $messages['zh-hans'] = array(
 	'mediafunctions-not-exist' => '"$1" 不存在',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Mark85296341
  */
 $messages['zh-hant'] = array(
