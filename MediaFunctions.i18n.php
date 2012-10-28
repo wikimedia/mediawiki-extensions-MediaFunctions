@@ -10,9 +10,6 @@
 
 $messages = array();
 
-/* English
- * @author Rob Church
- */
 $messages['en'] = array(
 	'mediafunctions-desc'          => 'Parser functions for obtaining information about media files',
 	'mediafunctions-invalid-title' => '"$1" is not a valid title',
@@ -417,7 +414,8 @@ $messages['nah'] = array(
 	'mediafunctions-not-exist' => '"$1" ahmo ia',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎) */
+/** Norwegian Bokmål (norsk (bokmål)‎)
+ */
 $messages['nb'] = array(
 	'mediafunctions-desc' => 'Parserfunksjoner for å hente informasjon om mediefiler',
 	'mediafunctions-invalid-title' => '«$1» er en ugyldig tittel',
@@ -659,7 +657,8 @@ $messages['yi'] = array(
 	'mediafunctions-not-exist' => '"$1" עקזיסטירט נישט',
 );
 
-/** Cantonese (粵語) */
+/** Cantonese (粵語)
+ */
 $messages['yue'] = array(
 	'mediafunctions-invalid-title' => '"$1" 唔係一個有效嘅標題',
 	'mediafunctions-not-exist' => '"$1" 唔存在',
@@ -682,4 +681,3 @@ $messages['zh-hant'] = array(
 	'mediafunctions-invalid-title' => '「$1」不是一個有效的標題',
 	'mediafunctions-not-exist' => '「$1」不存在',
 );
-
