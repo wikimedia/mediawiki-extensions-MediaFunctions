@@ -541,6 +541,13 @@ $messages['ru'] = array(
 	'mediafunctions-not-exist' => '«$1» не существует',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'mediafunctions-not-exist' => '"$1" නොපවතියි',
+);
+
 /** Slovak (slovenčina)
  * @author Helix84
  */
