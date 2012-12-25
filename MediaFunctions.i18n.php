@@ -416,6 +416,14 @@ $messages['mr'] = array(
 	'mediafunctions-not-exist' => '"$1" अस्तीत्वात नाही',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'mediafunctions-invalid-title' => '"$1" mhuwiex titlu validu',
+	'mediafunctions-not-exist' => '"$1" ma jeżistix',
+);
+
 /** Nahuatl (Nāhuatl)
  * @author Fluence
  */
