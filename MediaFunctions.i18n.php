@@ -553,6 +553,7 @@ $messages['ru'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'mediafunctions-invalid-title' => '"$1" යනු නිවැරදි ශිර්ෂයක් නොවේ',
 	'mediafunctions-not-exist' => '"$1" නොපවතියි',
 );
 
