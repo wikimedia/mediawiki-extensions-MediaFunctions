@@ -127,10 +127,11 @@ $messages['cs'] = array(
 
 /** German (Deutsch)
  * @author Als-Holder
+ * @author Kghbln
  * @author Raimond Spekking
  */
 $messages['de'] = array(
-	'mediafunctions-desc' => 'Parserfunktionen zur Ermittlung von Informationen über Mediendateien',
+	'mediafunctions-desc' => 'Ergänzt Parserfunktionen zur Ermittlung von Informationen zu Mediendateien',
 	'mediafunctions-invalid-title' => '„$1“ ist kein gültiger Name',
 	'mediafunctions-not-exist' => '„$1“ ist nicht vorhanden',
 );
