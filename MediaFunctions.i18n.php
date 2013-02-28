@@ -18,11 +18,12 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author Purodha
+ * @author Shirayuki
  * @author Siebrand
  * @author The Evil IP address
  */
 $messages['qqq'] = array(
-	'mediafunctions-desc' => '{{desc}}',
+	'mediafunctions-desc' => '{{desc|name=Media Functions|url=http://www.mediawiki.org/wiki/Extension:MediaFunctions}}',
 	'mediafunctions-invalid-title' => '* $1 is input that has been found invalid as a page title',
 	'mediafunctions-not-exist' => '* $1 is a file name',
 );
