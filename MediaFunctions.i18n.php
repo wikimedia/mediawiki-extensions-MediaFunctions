@@ -433,7 +433,7 @@ $messages['nah'] = array(
 	'mediafunctions-not-exist' => '"$1" ahmo ia',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  */
 $messages['nb'] = array(
 	'mediafunctions-desc' => 'Parserfunksjoner for å hente informasjon om mediefiler',
@@ -458,7 +458,7 @@ $messages['nl'] = array(
 	'mediafunctions-not-exist' => '"$1" bestaat niet',
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Harald Khan
  * @author Njardarlogar
  */
