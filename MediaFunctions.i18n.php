@@ -24,8 +24,14 @@ $messages['en'] = array(
  */
 $messages['qqq'] = array(
 	'mediafunctions-desc' => '{{desc|name=Media Functions|url=http://www.mediawiki.org/wiki/Extension:MediaFunctions}}',
-	'mediafunctions-invalid-title' => '* $1 is input that has been found invalid as a page title',
-	'mediafunctions-not-exist' => '* $1 is a file name',
+	'mediafunctions-invalid-title' => 'Used as error message. Parameters:
+* $1 - input that has been found invalid as a page title
+See also:
+* {{msg-mw|Mediafunctions-not-exist}}',
+	'mediafunctions-not-exist' => 'Used as error message. Parameters:
+* $1 - a filename
+See also:
+* {{msg-mw|Mediafunctions-invalid-title}}',
 );
 
 /** Gheg Albanian (Gegë)
