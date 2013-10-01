@@ -382,9 +382,10 @@ $messages['ksh'] = array(
 /** Luxembourgish (Lëtzebuergesch)
  * @author Les Meloures
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
-	'mediafunctions-desc' => 'Parser-Fonctiounen fir Informatiounen iwwer Media-Fichieren ze kréien',
+	'mediafunctions-desc' => 'Parser-Funktioune fir Informatiounen iwwer Media-Fichieren ze kréien',
 	'mediafunctions-invalid-title' => '"$1" ass kee gëltegen Numm',
 	'mediafunctions-not-exist' => '"$1" gëtt et net',
 );
