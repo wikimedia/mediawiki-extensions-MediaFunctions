@@ -123,7 +123,7 @@ $messages['ca'] = array(
 	'mediafunctions-not-exist' => '«$1» no existeix',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Danny B.
  */
 $messages['cs'] = array(
