@@ -198,10 +198,12 @@ $messages['eu'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Mjbmr
  */
 $messages['fa'] = array(
 	'mediafunctions-invalid-title' => '«$1» یک عنوان معتبر نیست',
+	'mediafunctions-not-exist' => '"$1" وجود ندارد',
 );
 
 /** Finnish (suomi)
