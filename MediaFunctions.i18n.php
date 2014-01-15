@@ -202,6 +202,7 @@ $messages['eu'] = array(
  * @author Mjbmr
  */
 $messages['fa'] = array(
+	'mediafunctions-desc' => 'عملیات تجزیه برای به دست آوردن اطلاعات دربارهٔ‌ پوشه‌های رسانه',
 	'mediafunctions-invalid-title' => '«$1» یک عنوان معتبر نیست',
 	'mediafunctions-not-exist' => '"$1" وجود ندارد',
 );
