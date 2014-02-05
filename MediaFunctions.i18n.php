@@ -123,6 +123,13 @@ $messages['ca'] = array(
 	'mediafunctions-not-exist' => '«$1» no existeix',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'mediafunctions-not-exist' => '«$1» яц',
+);
+
 /** Czech (čeština)
  * @author Danny B.
  */
