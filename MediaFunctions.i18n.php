@@ -413,7 +413,7 @@ $messages['lv'] = array(
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
-	'mediafunctions-desc' => 'Аналитички (парсерски) функции за добивање на информации за медиски податотеки',
+	'mediafunctions-desc' => 'Расчленувачки функции за добивање на информации за медиски податотеки',
 	'mediafunctions-invalid-title' => '„$1“ е неважечки наслов',
 	'mediafunctions-not-exist' => '„$1“ не постои',
 );
