@@ -3,10 +3,11 @@
 		"authors": [
 			"Ferrer",
 			"VasilievVV",
-			"Kaganer"
+			"Kaganer",
+			"INS Pirat"
 		]
 	},
 	"mediafunctions-desc": "Функции парсера для получения информации о медиа-файлах",
-	"mediafunctions-invalid-title": "«$1» — некорректный заголовком",
+	"mediafunctions-invalid-title": "«$1» — некорректный заголовок.",
 	"mediafunctions-not-exist": "«$1» не существует"
 }
