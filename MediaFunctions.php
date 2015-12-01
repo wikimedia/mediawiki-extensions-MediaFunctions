@@ -12,7 +12,7 @@
  *
  * @author Rob Church (Robchurch) <robchur@gmail.com>
  *
- * @license http://www.opensource.org/licenses/BSD-2-Clause BSD 2-clause
+ * @license http://www.opensource.org/licenses/BSD-2-Clause BSD-2-Clause
  */
 
 // Ensure that the script cannot be executed outside of MediaWiki
@@ -24,14 +24,14 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['parserhook'][] = array(
 	'path' => __FILE__,
 	'name' => 'MediaFunctions',
-	'version' => '1.3.1',
+	'version' => '1.3.2',
 	'author' => array(
 		'Rob Church',
 		'...'
 	),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:MediaFunctions',
 	'descriptionmsg' => 'mediafunctions-desc',
-	'license-name' => 'BSD-2-clause'
+	'license-name' => 'BSD-2-Clause'
 );
 
 // Register extension messages
