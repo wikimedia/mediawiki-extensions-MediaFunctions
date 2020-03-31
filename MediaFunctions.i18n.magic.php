@@ -161,6 +161,17 @@ $magicWords['ru'] = array(
 	'mediapages' => array( 0, 'медиастраницы' ),
 );
 
+/** Serbian (Cyrillic script) (српски (ћирилица)‎) */
+$magicWords['sr-ec'] = array(
+	'mediamime' => array( 0, 'миме_датотеке' ),
+	'mediasize' => array( 0, 'величина_датотеке' ),
+	'mediaheight' => array( 0, 'висина_датотеке' ),
+	'mediawidth' => array( 0, 'ширина_датотеке' ),
+	'mediadimensions' => array( 0, 'димензије_датотеке' ),
+	'mediaexif' => array( 0, 'exif_датотеке' ),
+	'mediapages' => array( 0, 'странице_са_датотекама' ),
+);
+
 /** Serbian (Latin script) (srpski (latinica)‎) */
 $magicWords['sr-el'] = array(
 	'mediamime' => array( 0, 'mime_datoteke' ),
