@@ -40,18 +40,6 @@ $wgExtensionMessagesFiles['MediaFunctionsMagic'] = __DIR__ . '/MediaFunctions.i1
 
 // Load classes
 $wgAutoloadClasses['MediaFunctions'] = __DIR__ . '/MediaFunctions.class.php';
-
+$wgAutoloadClasses['MediaFunctionsHooks'] = __DIR__ . '/MediaFunctionsHooks.php';
 // Register hooks
-$wgHooks['ParserFirstCallInit'][] = 'efMediaFunctionsSetup';
-
-// Register function callbacks and add error messages to the message cache
-function efMediaFunctionsSetup( &$parser ) {
-	$parser->setFunctionHook( 'mediamime', array( 'MediaFunctions', 'mediamime' ) );
-	$parser->setFunctionHook( 'mediasize', array( 'MediaFunctions', 'mediasize' ) );
-	$parser->setFunctionHook( 'mediaheight', array( 'MediaFunctions', 'mediaheight' ) );
-	$parser->setFunctionHook( 'mediawidth', array( 'MediaFunctions', 'mediawidth' ) );
-	$parser->setFunctionHook( 'mediadimensions', array( 'MediaFunctions', 'mediadimensions' ) );
-	$parser->setFunctionHook( 'mediaexif', array( 'MediaFunctions', 'mediaexif' ) );
-	$parser->setFunctionHook( 'mediapages', array( 'MediaFunctions', 'mediapages' ) );
-	return true;
-}
+$wgHooks['ParserFirstCallInit'][] = 'MediaFunctionsHooks::efMediaFunctionsSetup';
