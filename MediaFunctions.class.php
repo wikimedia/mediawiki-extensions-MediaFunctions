@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * Parser function callbacks for the MediaFunctions extension
  *
@@ -158,7 +160,13 @@ class MediaFunctions {
 			if ( $title instanceof Title ) {
 				if ( $title->getNamespace() != NS_FILE )
 					$title = Title::makeTitle( NS_FILE, $title->getText() );
-				$file = wfFindFile( $title );
+				if ( method_exists( MediaWikiServices::class, 'getRepoGroup' ) ) {
+					// MediaWiki 1.34+
+					$file = MediaWikiServices::getInstance()->getRepoGroup()
+						->findFile( $title );
+				} else {
+					$file = wfFindFile( $title );
+				}
 				return $file instanceof File
 					? $file
 					: self::ERR_NOT_EXIST;
