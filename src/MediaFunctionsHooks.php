@@ -7,13 +7,13 @@ class MediaFunctionsHooks {
 	 *
 	 * @param Parser &$parser
 	 */
-	static function efMediaFunctionsSetup( &$parser ) {
-		$parser->setFunctionHook( 'mediamime', array( 'MediaFunctions', 'mediamime' ) );
-		$parser->setFunctionHook( 'mediasize', array( 'MediaFunctions', 'mediasize' ) );
-		$parser->setFunctionHook( 'mediaheight', array( 'MediaFunctions', 'mediaheight' ) );
-		$parser->setFunctionHook( 'mediawidth', array( 'MediaFunctions', 'mediawidth' ) );
-		$parser->setFunctionHook( 'mediadimensions', array( 'MediaFunctions', 'mediadimensions' ) );
-		$parser->setFunctionHook( 'mediaexif', array( 'MediaFunctions', 'mediaexif' ) );
-		$parser->setFunctionHook( 'mediapages', array( 'MediaFunctions', 'mediapages' ) );
+	public static function efMediaFunctionsSetup( &$parser ) {
+		$parser->setFunctionHook( 'mediamime', [ 'MediaFunctions', 'mediamime' ] );
+		$parser->setFunctionHook( 'mediasize', [ 'MediaFunctions', 'mediasize' ] );
+		$parser->setFunctionHook( 'mediaheight', [ 'MediaFunctions', 'mediaheight' ] );
+		$parser->setFunctionHook( 'mediawidth', [ 'MediaFunctions', 'mediawidth' ] );
+		$parser->setFunctionHook( 'mediadimensions', [ 'MediaFunctions', 'mediadimensions' ] );
+		$parser->setFunctionHook( 'mediaexif', [ 'MediaFunctions', 'mediaexif' ] );
+		$parser->setFunctionHook( 'mediapages', [ 'MediaFunctions', 'mediapages' ] );
 	}
 }
