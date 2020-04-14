@@ -39,7 +39,7 @@ $wgMessagesDirs['MediaFunctions'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['MediaFunctionsMagic'] = __DIR__ . '/MediaFunctions.i18n.magic.php';
 
 // Load classes
-$wgAutoloadClasses['MediaFunctions'] = __DIR__ . '/MediaFunctions.class.php';
-$wgAutoloadClasses['MediaFunctionsHooks'] = __DIR__ . '/MediaFunctionsHooks.php';
+$wgAutoloadClasses['MediaFunctions'] = __DIR__ . '/src/MediaFunctions.php';
+$wgAutoloadClasses['MediaFunctionsHooks'] = __DIR__ . '/src/MediaFunctionsHooks.php';
 // Register hooks
 $wgHooks['ParserFirstCallInit'][] = 'MediaFunctionsHooks::efMediaFunctionsSetup';
