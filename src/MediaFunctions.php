@@ -116,7 +116,7 @@ class MediaFunctions {
 						) {
 							return htmlspecialchars( $data[$meta][$index] );
 						}
-					} elseif ( $index === '0' /* and !is_array */ ) {
+					} elseif ( $index === '0' ) {
 						return htmlspecialchars( $data[$meta] );
 					}
 				}
@@ -126,7 +126,7 @@ class MediaFunctions {
 		return self::error( $file, $name );
 	}
 
- 	/**
+	/**
 	 * Get the number of pages of a file
 	 *
 	 * @param Parser $parser Calling parser
@@ -134,11 +134,12 @@ class MediaFunctions {
 	 * @return string
 	 */
 	public static function mediapages( $parser, $name = '' ) {
-		if( ( $file = self::resolve( $name ) ) instanceof File ) {
+		if ( ( $file = self::resolve( $name ) ) instanceof File ) {
 			$parser->mOutput->addImage( $file->getTitle()->getDBkey() );
 			$nrpages = $file->getHandler()->pageCount( $file );
-			if ( $nrpages == false )
+			if ( $nrpages == false ) {
 				return '';
+			}
 			return $nrpages;
 		}
 		return self::error( $file, $name );
@@ -158,8 +159,9 @@ class MediaFunctions {
 		if ( $text ) {
 			$title = Title::newFromText( $text );
 			if ( $title instanceof Title ) {
-				if ( $title->getNamespace() != NS_FILE )
+				if ( $title->getNamespace() != NS_FILE ) {
 					$title = Title::makeTitle( NS_FILE, $title->getText() );
+				}
 				if ( method_exists( MediaWikiServices::class, 'getRepoGroup' ) ) {
 					// MediaWiki 1.34+
 					$file = MediaWikiServices::getInstance()->getRepoGroup()
