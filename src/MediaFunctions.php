@@ -28,7 +28,7 @@ class MediaFunctions {
 	public static function mediamime( $parser, $name = '' ) {
 		$file = self::resolve( $name );
 		if ( $file instanceof File ) {
-			$parser->mOutput->addImage( $file->getTitle()->getDBkey() );
+			$parser->getOutput()->addImage( $file->getTitle()->getDBkey() );
 			return $file->getMimeType();
 		}
 		return self::error( $file, $name );
@@ -44,7 +44,7 @@ class MediaFunctions {
 	public static function mediasize( $parser, $name = '' ) {
 		$file = self::resolve( $name );
 		if ( $file instanceof File ) {
-			$parser->mOutput->addImage( $file->getTitle()->getDBkey() );
+			$parser->getOutput()->addImage( $file->getTitle()->getDBkey() );
 			return htmlspecialchars( $parser->getTargetLanguage()->formatSize( $file->getSize() ) );
 		}
 		return self::error( $file, $name );
@@ -60,7 +60,7 @@ class MediaFunctions {
 	public static function mediaheight( $parser, $name = '' ) {
 		$file = self::resolve( $name );
 		if ( $file instanceof File ) {
-			$parser->mOutput->addImage( $file->getTitle()->getDBkey() );
+			$parser->getOutput()->addImage( $file->getTitle()->getDBkey() );
 			return $file->getHeight();
 		}
 		return self::error( $file, $name );
@@ -76,7 +76,7 @@ class MediaFunctions {
 	public static function mediawidth( $parser, $name = '' ) {
 		$file = self::resolve( $name );
 		if ( $file instanceof File ) {
-			$parser->mOutput->addImage( $file->getTitle()->getDBkey() );
+			$parser->getOutput()->addImage( $file->getTitle()->getDBkey() );
 			return $file->getWidth();
 		}
 		return self::error( $file, $name );
@@ -93,7 +93,7 @@ class MediaFunctions {
 	public static function mediadimensions( $parser, $name = '' ) {
 		$file = self::resolve( $name );
 		if ( $file instanceof File ) {
-			$parser->mOutput->addImage( $file->getTitle()->getDBkey() );
+			$parser->getOutput()->addImage( $file->getTitle()->getDBkey() );
 			return $file->getDimensionsString();
 		}
 		return self::error( $file, $name );
@@ -111,7 +111,7 @@ class MediaFunctions {
 	public static function mediaexif( $parser, $name = '', $meta = '', $index = '0' ) {
 		$file = self::resolve( $name );
 		if ( $file instanceof File ) {
-			$parser->mOutput->addImage( $file->getTitle()->getDBkey() );
+			$parser->getOutput()->addImage( $file->getTitle()->getDBkey() );
 			if ( $meta && $file->getHandler()->getMetadataType( $file ) == 'exif' ) {
 				$data = unserialize( $file->getMetadata() );
 				if ( $data && isset( $data[$meta] ) ) {
@@ -142,7 +142,7 @@ class MediaFunctions {
 	public static function mediapages( $parser, $name = '' ) {
 		$file = self::resolve( $name );
 		if ( $file instanceof File ) {
-			$parser->mOutput->addImage( $file->getTitle()->getDBkey() );
+			$parser->getOutput()->addImage( $file->getTitle()->getDBkey() );
 			$nrpages = $file->getHandler()->pageCount( $file );
 			if ( $nrpages == false ) {
 				return '';
