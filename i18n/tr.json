@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vito Genovese"
+			"Vito Genovese",
+			"MuratTheTurkish"
 		]
 	},
-	"mediafunctions-desc": "Ortam dosyaları hakkında bilgi edinmek için ayrıştırıcı fonksiyonlar",
+	"mediafunctions-desc": "Medya dosyaları hakkında bilgi almak için ayrıştırıcı işlevler",
 	"mediafunctions-invalid-title": "\"$1\" geçerli bir başlık değil",
 	"mediafunctions-not-exist": "\"$1\" mevcut değil"
 }
