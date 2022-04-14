@@ -1,4 +1,5 @@
 {
+	"name": "MediaFunctions",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
