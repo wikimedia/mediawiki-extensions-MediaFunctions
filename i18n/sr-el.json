@@ -4,7 +4,7 @@
 			"Michaello"
 		]
 	},
-	"mediafunctions-desc": "Parser funkcije za preuzimanje podataka o medija fajlovima",
-	"mediafunctions-invalid-title": "\"$1\" nije ispravan naslov",
-	"mediafunctions-not-exist": "\"$1\" ne postoji"
+	"mediafunctions-desc": "Raščlanjivačke funkcije za preuzimanje podataka o medijskim datotekama",
+	"mediafunctions-invalid-title": "„$1” nije validan naslov",
+	"mediafunctions-not-exist": "Datoteka „$1“ ne postoji"
 }
