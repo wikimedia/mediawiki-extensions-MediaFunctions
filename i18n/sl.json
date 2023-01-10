@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"mediafunctions-desc": "Funkcije razčlenjevalnika za pridobitev informacij o predstavnostnih datotekah",
+	"mediafunctions-invalid-title": "»$1« ni veljaven naslov",
+	"mediafunctions-not-exist": "»$1« ne obstaja"
+}
