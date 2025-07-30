@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmed-Najib-Biabani-Ibrahimkhel"
+			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"شاه زمان پټان"
 		]
 	},
+	"mediafunctions-desc": "د رسنيزو دوتنو په اړه د مالوماتو ترلاسه کولو تجزيه‌گرې چارې",
 	"mediafunctions-invalid-title": "\"$1\" يو ناسم سرليک دی",
 	"mediafunctions-not-exist": "\"$1\" نشته"
 }
