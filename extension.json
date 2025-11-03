@@ -10,7 +10,7 @@
 	"license-name": "BSD-2-Clause",
 	"type": "parserhook",
 	"requires": {
-		"MediaWiki": ">= 1.29.0"
+		"MediaWiki": ">= 1.40.0"
 	},
 	"MessagesDirs": {
 		"MediaFunctions": [
