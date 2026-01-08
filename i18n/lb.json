@@ -3,10 +3,11 @@
 		"authors": [
 			"Les Meloures",
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
-	"mediafunctions-desc": "Parser-Funktioune fir Informatiounen iwwer Media-Fichieren ze kréien",
+	"mediafunctions-desc": "Parserfunktioune fir Informatiounen iwwer Mediefichieren ze kréien",
 	"mediafunctions-invalid-title": "\"$1\" ass kee gëltegen Numm",
 	"mediafunctions-not-exist": "\"$1\" gëtt et net"
 }
