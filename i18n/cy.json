@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ceirios"
+		]
+	},
+	"mediafunctions-desc": "Swyddogaethau dosrannu ar gyfer gwybodaeth am ffeiliau cyfryngau",
+	"mediafunctions-invalid-title": "Nid yw \"$1\" yn deitl dilys",
+	"mediafunctions-not-exist": "Nid yw \"$1\" yn bodoli"
+}
