@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aca",
 			"Winston Sung"
 		]
 	},
 	"mediafunctions-desc": "Parserske funkcije za dobivanje informacija o medijskim datotekama",
-	"mediafunctions-invalid-title": "\"$1\" je nevaljan naslov",
+	"mediafunctions-invalid-title": "\"$1\" nije ispravan naslov",
 	"mediafunctions-not-exist": "\"$1\" ne postoji"
 }
